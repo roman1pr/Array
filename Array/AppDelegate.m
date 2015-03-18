@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "Array.h"
+#import "child.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,35 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.arr = [[Array alloc] init];
+    self.arr.arrFr = [self.arr myinitAr];
+    [self.arr printArr];
+    
+    self.arr2 = [[Array alloc] init];
+    self.arr.arrFr = [self.arr myinitAr2];
+    
+    Array* t1 = [[Array alloc] init];
+    Array* t2 = [[Array alloc] init];
+    child * t3 = [[child alloc] init];
+    
+    
+    t1.name = @"s1";
+    t2.name = @"s2";
+    [t3 setName:@"s3"];
+    
+    NSArray* arr = [[NSArray alloc] initWithObjects:t1, t2, t3, nil];
+    
+    for (Array* tempArr in arr){
+        [tempArr action];
+        NSLog(@"name = %@", tempArr.name);
+        
+        if ([tempArr isKindOfClass:[child class]] ) {
+            NSLog(@"child founded!");
+        }
+    }
+    
+    
     return YES;
 }
 

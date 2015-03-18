@@ -14,6 +14,8 @@
 		30E58A921ABA0F390003E737 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30E58A911ABA0F390003E737 /* Images.xcassets */; };
 		30E58A951ABA0F390003E737 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30E58A931ABA0F390003E737 /* LaunchScreen.xib */; };
 		30E58AA11ABA0F390003E737 /* ArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E58AA01ABA0F390003E737 /* ArrayTests.m */; };
+		30E58AAB1ABA0F5B0003E737 /* MyArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E58AAA1ABA0F5B0003E737 /* MyArray.m */; };
+		30E58AAF1ABA1E590003E737 /* child.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E58AAE1ABA1E590003E737 /* child.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		30E58A9A1ABA0F390003E737 /* ArrayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArrayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30E58A9F1ABA0F390003E737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30E58AA01ABA0F390003E737 /* ArrayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrayTests.m; sourceTree = "<group>"; };
+		30E58AAA1ABA0F5B0003E737 /* MyArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyArray.m; sourceTree = "<group>"; };
+		30E58AAC1ABA0F6C0003E737 /* Array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Array.h; sourceTree = "<group>"; };
+		30E58AAD1ABA1E0D0003E737 /* child.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = child.h; sourceTree = "<group>"; };
+		30E58AAE1ABA1E590003E737 /* child.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = child.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,10 @@
 				30E58A911ABA0F390003E737 /* Images.xcassets */,
 				30E58A931ABA0F390003E737 /* LaunchScreen.xib */,
 				30E58A841ABA0F390003E737 /* Supporting Files */,
+				30E58AAA1ABA0F5B0003E737 /* MyArray.m */,
+				30E58AAC1ABA0F6C0003E737 /* Array.h */,
+				30E58AAD1ABA1E0D0003E737 /* child.h */,
+				30E58AAE1ABA1E590003E737 /* child.m */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -220,6 +230,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				30E58A8D1ABA0F390003E737 /* ViewController.m in Sources */,
+				30E58AAF1ABA1E590003E737 /* child.m in Sources */,
+				30E58AAB1ABA0F5B0003E737 /* MyArray.m in Sources */,
 				30E58A8A1ABA0F390003E737 /* AppDelegate.m in Sources */,
 				30E58A871ABA0F390003E737 /* main.m in Sources */,
 			);
